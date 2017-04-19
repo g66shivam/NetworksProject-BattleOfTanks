@@ -29,13 +29,13 @@ Different levels of game should be well optimized acc. to the characteristics of
 Server client acknowledgement should be maintained at proper time intervals to ensure the server and different clients remain connected for smooth functioning of game.
 
 Group No: G10
-Team Members:-        Shivam Gupta | 2014A7PS066P
-                      Vijay M Giri |  2014A7PS151P 
-                      Divanshu Aggarwal | 2014A7PS154P  
-                      Pulkit Gupta | 2014A7PS157P
+Team Members:-        Shivam Gupta | 2014A7PS066P<br>
+                      Vijay M Giri |  2014A7PS151P<br> 
+                      Divanshu Aggarwal | 2014A7PS154P<br>  
+                      Pulkit Gupta | 2014A7PS157P<br>
 
-Compilation Process:
-Server:  gcc -g server.c -o server
-		 ./server "server-IP"
-Client:  gcc -g client.c -o client
-		 ./client "server-IP" "Client-IP"
+Compilation Process:<br>
+Server:  gcc -g server.c -o server<br>
+		 ./server "server-IP"<br>
+Client:  gcc -g client.c -o client<br>
+		 ./client "server-IP" "Client-IP"<br>
