@@ -38,4 +38,4 @@ Compilation Process:
 Server:  gcc -g server.c -o server
 		 ./server "server-IP"
 Client:  gcc -g client.c -o client
-		 ./client "server-IP" "Client-IP"	
+		 ./client "server-IP" "Client-IP"
