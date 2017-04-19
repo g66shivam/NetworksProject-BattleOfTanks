@@ -30,6 +30,6 @@ Server client acknowledgement should be maintained at proper time intervals to e
 
 Group No: G10
 Team Members:-        Shivam Gupta | 2014A7PS066P
-                      Vijay M Giri |  2014A7PS151P 
-                      Divanshu Aggarwal | 2014A7PS154P  
+                      Vijay M Giri |  2014A7PS151P
+                      Divanshu Aggarwal | 2014A7PS154P
                       Pulkit Gupta | 2014A7PS157P
