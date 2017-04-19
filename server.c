@@ -180,7 +180,8 @@ void respawn()
 		{
 			sends.matrix[sends.clients[i].x][sends.clients[i].y].type = i+1;
 			sends.matrix[sends.clients[i].x][sends.clients[i].y].direction = DOWN;
-			next_spawn[i] = -1; 
+			next_spawn[i] = -1;
+			global_changes++;
 		}
 	}
 }
@@ -644,7 +645,8 @@ void fill_pow()
 		}
 	}
 }
-int main()
+
+int main(int argc, char *argv[])
 {	
 	srand(time(NULL));
 	fill_pow();
@@ -656,7 +658,7 @@ int main()
 	memset((char *)&serverAddr,0,sizeof(serverAddr));
 	serverAddr.sin_family = AF_INET;
 	serverAddr.sin_port = htons(9000);
-	serverAddr.sin_addr.s_addr = inet_addr("192.168.1.101");
+	serverAddr.sin_addr.s_addr = inet_addr(argv[1]);
 	bind(socketfd,(struct sockaddr *)&serverAddr,sizeof(serverAddr));
 	addr_size = sizeof(serverAddr);
 

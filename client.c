@@ -227,14 +227,14 @@ void sendMessage(){
 	}
 }
 
-int main()
+int main(int argc, char *argv[])
 {
 	socketmsg = socket(PF_INET,SOCK_DGRAM,0);
 	memset((char *)&msgAddr,0,sizeof(msgAddr));
 	msgAddr.sin_family = AF_INET;
 	msgAddr.sin_port = htons(9200);
 	
-	msgAddr.sin_addr.s_addr = inet_addr("192.168.1.101");
+	msgAddr.sin_addr.s_addr = inet_addr(argv[2]);
 	bind(socketmsg,(struct sockaddr *)&msgAddr,sizeof(msgAddr));
 
 	int socketfd,nBytes;
@@ -245,7 +245,7 @@ int main()
 	memset((char *)&serverAddr,0,sizeof(serverAddr));
 	serverAddr.sin_family = AF_INET;
 	serverAddr.sin_port = htons(9000);
-	serverAddr.sin_addr.s_addr = inet_addr("192.168.1.101");
+	serverAddr.sin_addr.s_addr = inet_addr(argv[1]);
 
 	addr_size = sizeof(serverAddr);
 	memset(buffer,0, 1024);
