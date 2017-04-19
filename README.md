@@ -29,7 +29,7 @@ Different levels of game should be well optimized acc. to the characteristics of
 Server client acknowledgement should be maintained at proper time intervals to ensure the server and different clients remain connected for smooth functioning of game.
 
 Group No: G10
-Team Members:-        Shivam Gupta | 2014A7PS066P
-                      Vijay M Giri |  2014A7PS151P
-                      Divanshu Aggarwal | 2014A7PS154P
-                      Pulkit Gupta | 2014A7PS157P
+Team Members:-        <br>Shivam Gupta | 2014A7PS066P</br>
+                      <br>Vijay M Giri |  2014A7PS151P</br>
+                      <br>Divanshu Aggarwal | 2014A7PS154P</br>
+                      <br>Pulkit Gupta | 2014A7PS157P</br>
